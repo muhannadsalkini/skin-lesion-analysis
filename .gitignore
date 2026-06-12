@@ -1,0 +1,70 @@
+# ─── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# ─── Virtual environment ──────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+.env/
+
+# ─── Jupyter ──────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ─── Dataset (large — download with download_dataset.py) ──────────────────────
+data/
+
+# ─── Trained model weights (large binary files) ───────────────────────────────
+results/models/
+*.keras
+*.h5
+*.pb
+*.tflite
+saved_model/
+
+# ─── Logs & results (regenerate with evaluate.py / visualize.py) ──────────────
+results/logs/
+results/figures/
+
+# ─── Kaggle credentials ───────────────────────────────────────────────────────
+kaggle.json
+.kaggle/
+
+# ─── macOS ────────────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ─── IDE / editors ────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ─── LaTeX build artefacts ────────────────────────────────────────────────────
+*.aux
+*.log
+*.out
+*.toc
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.blg
+*.bbl
+# Keep the source
+!BIS539_Final_Report.tex
+
+# ─── Environment files ────────────────────────────────────────────────────────
+.env
+*.env
