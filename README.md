@@ -1,7 +1,6 @@
 # 🔬 Skin Lesion Analysis — BIS539 Final Project
 
 **Author:** Muhannad Salkini  
-**Student ID:** 251129910  
 **Course:** BIS539 — Pattern Recognition and Computer Vision  
 **University:** Biruni University, Department of Computer Engineering  
 **Semester:** 2025–2026 Spring  
